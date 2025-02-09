@@ -1,0 +1,276 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+.navbar {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+.navbar ul {
+    margin-bottom: 10px;
+    display: flex;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ccc;
+}
+
+.navbar img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 5px;
+  }
+
+.user-icon {
+    width: 45px; 
+    height: 45px;
+    vertical-align: middle; 
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.user-icon:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 500px;
+    padding-right: 20px;
+}
+
+.sidebar h2, .sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #007bff; 
+    font-size: 1.2rem;
+}
+
+.sidebar img {
+    margin-top: 10px;
+    width: 30px; 
+    height: 30px; 
+    margin-right: 5px;
+  }
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.container2 {
+    width: 820px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-meta {
+    flex-grow: 1;
+}
+
+.post-title {
+    margin: 0;
+}
+
+.post-info {
+    margin: 0;
+    color: #777;
+    font-size: 14px;
+}
+
+.post-time {
+    color: #777;
+    font-size: 14px;
+}
+
+.post-content {
+    margin-bottom: 10px;
+}
+
+.post-actions {
+    display: flex;
+}
+
+.post-actions button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #555;
+}
+
+.post-actions button i {
+    margin-right: 5px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.comment.teacher {
+    background-color: #e6f2ff; 
+}
+
+.comment-content {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.teacher-tag {
+    background-color: #007bff; 
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.comment-actions {
+    color: #777;
+    font-size: 14px;
+}
+
+.comment-actions a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.dot {
+    margin: 0 5px;
+}
+
+.add-comment {
+    display: flex;
+    align-items: center;
+}
+
+.add-comment input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.post {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    background-color: #fff;
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+.post-meta {
+    color: #777; 
+    font-size: 14px;
+}
+
+.sidebar-right {
+    width: 250px;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.sidebar-right img{
+    width: 30px; 
+    height: 30px; 
+    margin-right: 5px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section li a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #007bff;
+}

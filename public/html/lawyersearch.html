@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Platform</title>
+    <link rel="stylesheet" href="../css/lawyersearch.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <ul class="menu">
+                <li><a href="#"><i class="fas fa-th-large"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> Clients</a></li>
+                <li><a href="#"><i class="fas fa-dollar-sign"></i> Billing</a></li>
+                <li><a href="#"><i class="fas fa-briefcase"></i> Cases</a></li>
+                <li><a href="#"><i class="fas fa-user-tie"></i> Lawyers</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </aside>
+        <main class="content">
+            <header>
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <button class="post-job">Add New Case</button>
+            </header>
+
+            <section class="freelancers">
+                <div class="section-header">
+                    <h2>Lawyers</h2>
+                    <div class="filter-options">
+                        <button>Filter</button>
+                        <button>Specialty</button>
+                        <button>Location</button>
+                        <button>Hourly Rate</button>
+                    </div>
+                </div>
+
+                <div class="freelancer-list">
+                    <div class="freelancer-card">
+                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
+                        <h3>Michael Spitz</h3>
+                        <p class="location">Los Angeles, CA</p>
+                        <span class="availability">AVAILABLE</span>
+                        <p class="description">Experienced attorney specializing in contract law and business litigation.</p>
+                        <div class="skills">
+                            <button>Contract Law</button>
+                            <button>Business Litigation</button>
+                            <button>Negotiation</button>
+                        </div>
+                        <div class="projects-rate">
+                            <span class="projects">15 Years Experience</span>
+                            <span class="rate">$300/hr</span>
+                        </div>
+                        <button class="invite">View Profile</button>
+                    </div>
+
+                    <div class="freelancer-card">
+                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
+                        <h3>Marco Coppeto</h3>
+                        <p class="location">New York, NY</p>
+                        <span class="availability unavailable">UNAVAILABLE</span>
+                        <p class="description">Real estate lawyer with expertise in property transactions and landlord-tenant disputes.</p>
+                        <div class="skills">
+                            <button>Real Estate Law</button>
+                            <button>Property Transactions</button>
+                            <button>2 more</button>
+                        </div>
+                        <div class="projects-rate">
+                            <span class="projects">10+ Cases Won</span>
+                            <span class="rate">$250/hr</span>
+                        </div>
+                        <button class="invite">View Profile</button>
+                    </div>
+
+                    <div class="freelancer-card">
+                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
+                        <h3>Gene Ross</h3>
+                        <p class="location">Los Angeles, CA</p>
+                        <span class="availability">AVAILABLE</span>
+                        <p class="description">Family law attorney specializing in divorce, custody battles, and child support.</p>
+                        <div class="skills">
+                            <button>Family Law</button>
+                            <button>Divorce</button>
+                            <button>Child Custody</button>
+                        </div>
+                        <div class="projects-rate">
+                            <span class="projects">5 Star Rating</span>
+                            <span class="rate">$200/hr</span>
+                        </div>
+                        <button class="invite">View Profile</button>
+                    </div>
+
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
