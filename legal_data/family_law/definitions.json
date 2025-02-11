@@ -1,0 +1,28 @@
+{
+    "definitions": {
+      "divorce": "The legal termination of a marriage.",
+      "dissolution": "Another term for divorce.",
+      "legal separation": "A court order that allows spouses to live apart while remaining legally married.",
+      "annulment": "A legal declaration that a marriage was never valid.",
+      "community property": "Assets acquired by a couple during their marriage that are owned equally by both spouses.",
+      "separate property": "Assets owned by a spouse before marriage or acquired during marriage by gift or inheritance.",
+      "spousal support": "Financial payments made by one spouse to the other after divorce.",
+      "alimony": "Another term for spousal support.",
+      "child custody": "The legal right and responsibility to care for a child.",
+      "legal custody": "The right to make decisions about a child's upbringing, such as education and healthcare.",
+      "physical custody": "The right to have the child live with you.",
+      "visitation": "The right of a non-custodial parent to spend time with their child.",
+      "child support": "Financial payments made by one parent to the other for the support of their child.",
+      "adoption": "The legal process of becoming the parent of a child who is not one's biological child.",
+      "prenuptial agreement": "An agreement entered into by a couple before marriage that addresses financial and property matters in the event of divorce.",
+      "marital property": "Another term for community property.",
+      "paternity": "The legal determination of fatherhood.",
+      "guardianship": "The legal right and responsibility to care for a child or an incapacitated adult.",
+      "domestic violence": "Abuse or violence committed by one family member against another.",
+      "restraining order": "A court order that prohibits a person from contacting or coming near another person.",
+      "mediation": "A process where a neutral third party helps parties in a dispute communicate and negotiate to reach a mutually acceptable agreement.",
+      "collaborative divorce": "A process where spouses and their attorneys work together to reach a mutually acceptable divorce settlement.",
+      "child support guidelines": "State-established formulas for calculating child support payments.",
+      "custody evaluation": "An investigation and report by a mental health professional or social worker to assist the court in making custody decisions."
+    }
+  }

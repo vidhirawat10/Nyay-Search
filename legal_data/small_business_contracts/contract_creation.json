@@ -1,0 +1,36 @@
+[
+    {
+      "type": "statute", 
+      "jurisdiction": "CA", 
+      "citation": "Cal. Civ. Code § 1550", 
+      "title": "Elements of a Valid Contract",
+      "text": "A valid contract requires an offer, acceptance, and consideration.",
+      "keywords": ["contract creation", "offer", "acceptance", "consideration", "elements"]
+    },
+    {
+      "type": "principle",
+      "jurisdiction": "General",
+      "title": "Meeting of the Minds",
+      "text": "There must be a \"meeting of the minds\" between the parties regarding the essential terms of the contract.",
+      "keywords": ["contract creation", "meeting of the minds", "mutual assent"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "What is consideration in a contract?",
+      "answer": "Consideration is something of value exchanged between the parties to a contract.  It can be a promise, an act, or a forbearance.",
+      "keywords": ["contract creation", "consideration", "value", "exchange"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "What are the essential terms of a contract?",
+      "answer": "The essential terms of a contract typically include the subject matter, price, and quantity.",
+      "keywords": ["contract creation", "essential terms", "subject matter", "price", "quantity"]
+    },
+    {
+      "type": "user_question",
+      "question": "I'm starting a small business.  How do I create a basic contract with a supplier?",
+      "keywords": ["contract creation", "small business", "supplier", "basic contract"]
+    }
+  ]

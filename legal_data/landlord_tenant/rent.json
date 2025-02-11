@@ -1,0 +1,83 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA", 
+      "citation": "Cal. Civ. Code § 1947", 
+      "title": "Payment of Rent",
+      "text": "Rent is typically due on the date specified in the lease agreement.  The lease may specify the acceptable methods of payment.",
+      "keywords": ["rent", "payment", "due date", "method of payment"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 827", 
+      "title": "Notice of Rent Increase",
+      "text": "Landlords must provide proper notice before increasing rent. The amount of notice required depends on...",
+      "keywords": ["rent increase", "notice", "30 days", "60 days"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1953.5", 
+      "title": "Late Fees",
+      "text": "Landlords may charge late fees for rent payments received after the due date, but these fees may be limited by law.",
+      "keywords": ["late fees", "rent", "due date", "grace period"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Miller v. Smith (2022)", 
+      "summary": "This case addressed the legality of certain types of rent increases. The court held that...",
+      "keywords": ["rent increase", "legality", "tenant rights"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "When is rent due?",
+      "answer": "Rent is typically due on the date specified in your lease agreement.",
+      "keywords": ["rent", "due date"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How much notice does my landlord have to give me before raising the rent?",
+      "answer": "The amount of notice required depends on...",
+      "keywords": ["rent increase", "notice"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can my landlord charge me a late fee?",
+      "answer": "Your landlord may be able to charge a late fee, but there may be limits...",
+      "keywords": ["late fee", "rent"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What if I can't pay my rent?",
+      "answer": "If you are unable to pay your rent, it is important to...",
+      "keywords": ["rent", "non-payment", "financial hardship"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can I withhold rent if my landlord doesn't make repairs?",
+      "answer": "In some jurisdictions, tenants may have the right to withhold rent under certain circumstances...",
+      "keywords": ["rent withholding", "repairs", "tenant rights"]
+    },
+    {
+      "type": "user_question",
+      "question": "My landlord raised my rent without giving me any notice. Is this legal?",
+      "keywords": ["rent increase", "no notice", "illegal"]
+    },
+      {
+      "type": "user_question",
+      "question": "I paid my rent late, and my landlord is charging me a huge late fee.  Is there a limit on how much they can charge?",
+      "keywords": ["late fee", "rent", "limit"]
+    },
+    {
+      "type": "user_question",
+      "question": "My lease says rent is due on the 1st, but I always get paid on the 5th.  Can I ask my landlord to change the due date?",
+      "keywords": ["rent", "due date", "change"]
+    }
+  ]

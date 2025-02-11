@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 8500",
+      "title": "Types of Adoption",
+      "text": "California law recognizes several types of adoption, including agency adoptions, independent adoptions, and stepparent adoptions.",
+      "keywords": ["adoption", "types", "agency", "independent", "stepparent"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 8600",
+      "title": "Consent to Adoption",
+      "text": "Consent to adoption is generally required from the birth parents, the child (if of a certain age), and any other legal guardians.",
+      "keywords": ["adoption", "consent", "birth parents", "child"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Adoption of Smith (2018)",
+      "summary": "This case involved a contested adoption where the birth father challenged the adoption.",
+      "keywords": ["adoption", "contested", "birth father"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Who is eligible to adopt a child?",
+      "answer": "The requirements for adoptive parents vary, but generally include...",
+      "keywords": ["adoption", "eligibility", "requirements"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How long does the adoption process take?",
+      "answer": "The adoption process can take several months or even years, depending on...",
+      "keywords": ["adoption", "process", "timeline"]
+    },
+    {
+      "type": "user_question",
+      "question": "I want to adopt a child.  What are the first steps?",
+      "keywords": ["adoption", "process", "how to"]
+    }
+  ]

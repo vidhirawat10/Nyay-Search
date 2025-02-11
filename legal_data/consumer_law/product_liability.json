@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA", 
+      "citation": "Cal. Civ. Code § 1714", 
+      "title": "Negligence",
+      "text": "A manufacturer, distributor, or retailer can be held liable for product defects that cause injury due to negligence.",
+      "keywords": ["product liability", "negligence", "injury", "defect"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1713.1", 
+      "title": "Strict Product Liability",
+      "text": "A manufacturer can be held strictly liable for a defective product that causes injury, even if they were not negligent.",
+      "keywords": ["product liability", "strict liability", "defect", "injury"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Greenman v. Yuba Power Products (1963)", 
+      "summary": "This case established the doctrine of strict product liability in California.",
+      "keywords": ["product liability", "strict liability", "landmark case"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What is a product defect?",
+      "answer": "A product defect can be a manufacturing defect, a design defect, or a failure to warn.",
+      "keywords": ["product defect", "manufacturing defect", "design defect", "failure to warn"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What do I do if I'm injured by a defective product?",
+      "answer": "If you are injured by a defective product, you should seek medical attention and consult with an attorney.",
+      "keywords": ["product liability", "injury", "legal help"]
+    },
+    {
+      "type": "user_question",
+      "question": "I bought a new appliance, and it exploded when I used it.  Can I sue the manufacturer?",
+      "keywords": ["product liability", "defective product", "appliance", "lawsuit"]
+    }
+  ]

@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Veh. Code § 13200", 
+      "title": "Negligent Operator",
+      "text": "Your driver's license can be suspended if you accumulate too many points on your driving record within a certain period.",
+      "keywords": ["license suspension", "negligent operator", "points", "driving record"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Veh. Code § 23153", 
+      "title": "DUI Suspension",
+      "text": "A DUI conviction will result in a mandatory driver's license suspension.",
+      "keywords": ["license suspension", "dui", "drunk driving"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How many points does it take to suspend my license?",
+      "answer": "In California, accumulating 4 points within 12 months, 6 points within 24 months, or 8 points within 36 months will result in a license suspension.",
+      "keywords": ["license suspension", "points", "traffic violations"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How can I get my license back after it's suspended?",
+      "answer": "The process for getting your license back after a suspension varies depending on the reason for the suspension. You may need to complete a DUI program, pay reinstatement fees, and pass a driving test.",
+      "keywords": ["license suspension", "reinstatement", "dmv"]
+    },
+    {
+      "type": "user_question",
+      "question": "My license was suspended. Can I still drive?",
+      "keywords": ["license suspension", "driving", "illegal"]
+    }
+  ]

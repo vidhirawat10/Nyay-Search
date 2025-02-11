@@ -1,0 +1,36 @@
+[
+    {
+      "type": "principle",
+      "jurisdiction": "General",
+      "title": "Breach of Contract",
+      "text": "A breach of contract occurs when one party fails to perform their obligations under the contract.",
+      "keywords": ["contract disputes", "breach of contract", "non-performance"]
+    },
+    {
+      "type": "principle",
+      "jurisdiction": "General",
+      "title": "Remedies for Breach of Contract",
+      "text": "Remedies for breach of contract may include monetary damages, specific performance, or rescission.",
+      "keywords": ["contract disputes", "remedies", "damages", "specific performance", "rescission"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "What should I do if the other party breaches the contract?",
+      "answer": "If the other party breaches the contract, you should...",
+      "keywords": ["contract disputes", "breach of contract", "action to take"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "How can I resolve a contract dispute?",
+      "answer": "Contract disputes can be resolved through negotiation, mediation, arbitration, or litigation.",
+      "keywords": ["contract disputes", "resolution", "negotiation", "mediation", "arbitration", "litigation"]
+    },
+    {
+      "type": "user_question",
+      "question": "A vendor I hired isn't fulfilling their contract. What are my options?",
+      "keywords": ["contract disputes", "vendor", "non-performance", "options"]
+    }
+  ]
+  

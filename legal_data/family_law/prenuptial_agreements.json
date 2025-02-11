@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 1610",
+      "title": "Requirements for a Valid Prenuptial Agreement",
+      "text": "A prenuptial agreement must be in writing and signed by both parties.  It must also be entered into voluntarily and without undue influence.",
+      "keywords": ["prenuptial agreement", "requirements", "validity", "writing", "signature"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 1611",
+      "title": "What Can Be Included in a Prenuptial Agreement",
+      "text": "Prenuptial agreements can address issues such as property division, spousal support, and inheritance rights.",
+      "keywords": ["prenuptial agreement", "contents", "property", "spousal support", "inheritance"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "In re Marriage of Johnson (2022)",
+      "summary": "This case involved a challenge to a prenuptial agreement where one spouse claimed it was not entered into voluntarily.",
+      "keywords": ["prenuptial agreement", "validity", "voluntariness"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Do I need a lawyer to create a prenuptial agreement?",
+      "answer": "It is highly recommended that both parties have independent legal counsel when creating a prenuptial agreement.",
+      "keywords": ["prenuptial agreement", "lawyer", "legal counsel"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can a prenuptial agreement be changed after marriage?",
+      "answer": "Yes, a prenuptial agreement can be modified or revoked after marriage with the written consent of both parties.",
+      "keywords": ["prenuptial agreement", "modification", "revocation"]
+    },
+    {
+      "type": "user_question",
+      "question": "My fiancé wants me to sign a prenup.  What should I do?",
+      "keywords": ["prenuptial agreement", "advice", "legal counsel"]
+    }
+  ]

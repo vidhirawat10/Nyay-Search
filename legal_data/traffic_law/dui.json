@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Veh. Code § 23152",
+      "title": "Driving Under the Influence",
+      "text": "It is illegal to drive a vehicle while under the influence of alcohol or drugs.",
+      "keywords": ["dui", "driving under the influence", "drunk driving", "alcohol", "drugs"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Veh. Code § 23153",
+      "title": "DUI Causing Injury",
+      "text": "It is a more serious offense to drive under the influence and cause injury to another person.",
+      "keywords": ["dui", "causing injury", "felony", "misdemeanor"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What is the legal blood alcohol content (BAC) limit?",
+      "answer": "The legal BAC limit in California is 0.08%.",
+      "keywords": ["dui", "bac", "blood alcohol content", "limit"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What are the penalties for DUI?",
+      "answer": "The penalties for DUI can include fines, jail time, license suspension, and DUI school.",
+      "keywords": ["dui", "penalties", "fines", "jail", "license suspension"]
+    },
+    {
+      "type": "user_question",
+      "question": "I was arrested for DUI. What should I do?",
+      "keywords": ["dui", "arrest", "legal help"]
+    }
+  ]

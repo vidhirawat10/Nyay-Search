@@ -1,0 +1,25 @@
+{
+    "definitions": {
+      "product liability": "The legal responsibility of manufacturers, distributors, and retailers for injuries caused by defective products.",
+      "strict liability": "Liability that does not depend on proving negligence or intent to harm.",
+      "negligence": "Failure to exercise reasonable care, resulting in damage or injury.",
+      "defect": "A flaw or imperfection in a product that makes it unreasonably dangerous.",
+      "manufacturing defect": "A defect that occurs during the manufacturing process.",
+      "design defect": "A defect in the design of a product that makes it unreasonably dangerous.",
+      "failure to warn": "A failure to provide adequate warnings about the dangers of a product.",
+      "debt collection": "The process of recovering money owed on a debt.",
+      "FDCPA": "Fair Debt Collection Practices Act, a federal law that regulates debt collection practices.",
+      "CFDCPA": "California Fair Debt Collection Practices Act, a state law that provides additional protections for consumers.",
+      "unfair business practices": "Unlawful or unethical business conduct that harms consumers.",
+      "UCL": "Unfair Competition Law (California Business and Professions Code Section 17200).",
+      "CLRA": "Consumer Legal Remedies Act (California Civil Code Section 1750).",
+      "false advertising": "Misleading or untrue statements made about a product or service.",
+      "bait and switch": "An illegal sales tactic where a seller advertises a product at a low price but then tries to sell a more expensive product.",
+      "deceptive practices": "Business practices that are likely to mislead or deceive consumers.",
+      "warranty": "A guarantee by the seller that a product will meet certain standards of quality and performance.",
+      "breach of warranty": "Failure of a seller to fulfill the terms of a warranty.",
+      "consumer rights": "Rights granted to consumers by law, such as the right to safety, the right to be informed, the right to choose, and the right to be heard.",
+      "lemon law": "Laws that protect consumers who purchase defective vehicles.",
+      "class action lawsuit": "A lawsuit brought by a group of people who have all been injured by the same or similar conduct."
+    }
+}

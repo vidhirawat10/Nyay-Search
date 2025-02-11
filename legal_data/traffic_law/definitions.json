@@ -1,0 +1,28 @@
+{
+    "definitions": {
+      "traffic violation": "An offense that violates traffic laws.",
+      "speeding": "Driving faster than the posted speed limit.",
+      "dui": "Driving under the influence of alcohol or drugs.",
+      "bac": "Blood alcohol content.",
+      "license suspension": "The temporary withdrawal of a driver's license.",
+      "negligent operator": "A driver who accumulates too many points on their driving record.",
+      "traffic school": "A course that drivers can take to dismiss a traffic ticket and avoid points on their record.",
+      "point system": "A system used by the DMV to track traffic violations.",
+      "reckless driving": "Driving in a manner that endangers people or property.",
+      "hit and run": "Leaving the scene of an accident without exchanging information or providing aid.",
+      "driving without a license": "Driving a vehicle without a valid driver's license.",
+      "failure to yield": "Failing to give the right-of-way to another vehicle or pedestrian.",
+      "running a red light": "Entering an intersection after the traffic light has turned red.",
+      "stop sign violation": "Failing to stop at a stop sign.",
+      "parking violation": "Illegally parking a vehicle.",
+      "dmv": "Department of Motor Vehicles.",
+      "sr-22": "A form required by some states for drivers who have been convicted of certain traffic offenses, such as DUI.",
+      "implied consent": "A law that states that drivers agree to submit to chemical testing if they are suspected of DUI.",
+      "field sobriety test": "A series of tests used by law enforcement to determine if a driver is impaired.",
+      "breathalyzer": "A device used to measure blood alcohol content through a breath sample.",
+      "blood test": "A test used to measure blood alcohol content through a blood sample.",
+      "chemical test": "A test used to measure blood alcohol content, including breath, blood, and urine tests.",
+      "ignition interlock device": "A device installed in a vehicle that requires the driver to blow into it to start the engine, used as a condition of probation for some DUI offenders.",
+      "license reinstatement": "The process of getting a driver's license back after it has been suspended."
+    }
+  }

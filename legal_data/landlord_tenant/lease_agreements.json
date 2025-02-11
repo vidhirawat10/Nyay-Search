@@ -1,0 +1,78 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1940", 
+      "title": "Requirements for a Valid Lease Agreement",
+      "text": "A lease agreement must include the names of the parties (landlord and tenant), the description of the property, the term of the tenancy, the amount of rent, and the signatures of the parties.  Certain other provisions may be required or prohibited by law.",
+      "keywords": ["lease agreement", "rent", "term", "parties", "property description", "signature"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1942", 
+      "title": "Types of Lease Agreements",
+      "text": "Lease agreements can be for a fixed term (e.g., one year) or periodic (e.g., month-to-month).",
+      "keywords": ["lease agreement", "fixed term", "periodic", "month-to-month"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1950", 
+      "title": "Security Deposits",
+      "text": "Landlords can collect a security deposit, but it cannot exceed certain limits.  The security deposit can be used for...",
+      "keywords": ["security deposit", "rent", "damages", "deductions"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Smith v. Jones (2023)", 
+      "summary": "This case clarified the requirements for a lease agreement to be valid. The court held that...",
+      "keywords": ["lease agreement", "validity", "enforceability"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What should I include in a lease agreement?",
+      "answer": "A lease agreement should include...",
+      "keywords": ["lease agreement", "contents", "provisions"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can a landlord change the terms of a lease agreement?",
+      "answer": "Generally, a landlord cannot unilaterally change the terms of a lease agreement during the term, unless...",
+      "keywords": ["lease agreement", "change terms", "modification"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What are my rights as a tenant regarding lease agreements?",
+      "answer": "Tenants have certain rights regarding lease agreements, such as...",
+      "keywords": ["lease agreement", "tenant rights"]
+    },
+      {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What happens if a tenant breaks the lease?",
+      "answer": "If a tenant breaks the lease, the landlord may be entitled to...",
+      "keywords": ["lease agreement", "breach of lease", "early termination"]
+    },
+    {
+      "type": "form",
+      "jurisdiction": "CA",
+      "name": "Sample Lease Agreement",
+      "link": "https://example.com/sample_lease.pdf", 
+      "keywords": ["lease agreement form", "template"]
+    },
+    {
+      "type": "user_question",
+      "question": "My landlord wants me to sign a lease that seems unfair. What should I do?",
+      "keywords": ["lease agreement", "unfair terms", "tenant rights"]
+    },
+      {
+      "type": "user_question",
+      "question": "I'm a landlord. How do I create a legally sound lease agreement?",
+      "keywords": ["lease agreement", "landlord", "legally sound"]
+    }
+  ]

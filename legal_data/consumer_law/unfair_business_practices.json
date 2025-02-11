@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Bus. & Prof. Code § 17200", 
+      "title": "Unfair Competition Law",
+      "text": "California's Unfair Competition Law prohibits unfair or fraudulent business acts or practices.",
+      "keywords": ["unfair business practices", "UCL", "fraud", "unfair competition"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1750", 
+      "title": "Consumer Legal Remedies Act",
+      "text": "The Consumer Legal Remedies Act prohibits specific unfair methods of competition and unfair or deceptive acts or practices.",
+      "keywords": ["unfair business practices", "CLRA", "deceptive practices", "consumer remedies"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What are some examples of unfair business practices?",
+      "answer": "Examples of unfair business practices include false advertising, bait-and-switch tactics, and misleading pricing.",
+      "keywords": ["unfair business practices", "false advertising", "bait and switch", "misleading pricing"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What can I do if I've been the victim of an unfair business practice?",
+      "answer": "If you've been the victim of an unfair business practice, you can file a complaint with the appropriate agencies and consult with an attorney.",
+      "keywords": ["unfair business practices", "complaint", "legal help"]
+    },
+    {
+      "type": "user_question",
+      "question": "I think a company is falsely advertising their product.  What can I do?",
+      "keywords": ["unfair business practices", "false advertising", "complaint"]
+    }
+  ]

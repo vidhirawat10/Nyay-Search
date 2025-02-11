@@ -1,0 +1,31 @@
+{
+    "definitions": {
+      "lease agreement": "A contract between a landlord and tenant that outlines the terms of the tenancy.",
+      "eviction": "The legal process by which a landlord removes a tenant from a property.",
+      "security deposit": "Money paid by a tenant to a landlord as security for the performance of the lease agreement.",
+      "rent": "Payment made by a tenant to a landlord for the right to occupy a property.",
+      "habitability": "The condition of a property being fit for human habitation.",
+      "unlawful detainer": "A lawsuit filed by a landlord to evict a tenant.",
+      "notice": "Formal notification of a legal action or requirement.",
+      "tenant": "A person who rents property from a landlord.",
+      "landlord": "A person who owns property that is rented to others.",
+      "premises": "The property that is rented.",
+      "lessor": "Another term for landlord.",
+      "lessee": "Another term for tenant.",
+      "assign": "To transfer one's rights or obligations under a contract to another party.",
+      "sublease": "To rent a property that one is already renting to a third party.",
+      "periodic tenancy": "A tenancy that continues from period to period (e.g., month to month) until terminated by either party.",
+      "fixed-term tenancy": "A tenancy that lasts for a specific period of time (e.g., one year).",
+      "holdover tenant": "A tenant who remains in possession of a property after the expiration of the lease term.",
+      "rent control": "Laws that limit the amount of rent that landlords can charge.",
+      "retaliatory eviction": "An eviction in response to a tenant exercising their legal rights (e.g., complaining about repairs).",
+      "writ of possession": "A court order that allows a landlord to legally remove a tenant from a property.",
+      "constructive eviction": "When a landlord's actions (or failure to act) make the property uninhabitable, forcing the tenant to leave.",
+      "quiet enjoyment": "The right of a tenant to enjoy their rented property without interference from the landlord.",
+      "repair and deduct": "In some jurisdictions, a tenant's right to make necessary repairs themselves and deduct the cost from the rent if the landlord fails to do so after reasonable notice.",
+      "rent abatement": "A reduction in rent due to a breach of the warranty of habitability.",
+      "3-day notice": "A notice to pay rent or quit, typically used in cases of non-payment of rent.",
+      "30-day notice": "A notice to terminate a tenancy, often used for month-to-month tenancies.",
+      "60-day notice": "A notice to terminate a tenancy, sometimes required for longer"
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 3010",
+      "title": "Best Interests of the Child",
+      "text": "Child custody decisions are made based on the best interests of the child.",
+      "keywords": ["child custody", "best interests", "child"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 3020",
+      "title": "Types of Custody",
+      "text": "There are two types of custody: legal custody and physical custody.",
+      "keywords": ["child custody", "legal custody", "physical custody"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Garcia v. Martinez (2020)",
+      "summary": "This case involved a dispute over child custody where the parents lived in different states.",
+      "keywords": ["child custody", "relocation", "jurisdiction"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How is child custody determined?",
+      "answer": "Courts consider a variety of factors when determining child custody, including...",
+      "keywords": ["child custody", "factors", "court"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can I move with my child after a divorce?",
+      "answer": "Relocating with a child after a divorce may require court approval or agreement from the other parent.",
+      "keywords": ["child custody", "relocation", "move"]
+    },
+    {
+      "type": "user_question",
+      "question": "My ex-spouse is not following the custody order. What can I do?",
+      "keywords": ["child custody", "violation", "enforcement"]
+    }
+  ]

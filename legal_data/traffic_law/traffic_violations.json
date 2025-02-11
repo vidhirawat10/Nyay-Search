@@ -1,0 +1,45 @@
+[
+{
+    "type": "statute",
+    "jurisdiction": "CA",
+    "citation": "Cal. Veh. Code § 22350",
+    "title": "Speed Laws",
+    "text": "Drivers must drive at a speed that is reasonable and prudent given the traffic, visibility, and roadway conditions.",
+    "keywords": ["speeding", "speed limit", "traffic laws", "vehicle code"]
+  },
+  {
+    "type": "statute",
+    "jurisdiction": "CA",
+    "citation": "Cal. Veh. Code § 21450", 
+    "title": "Traffic Signals",
+    "text": "Drivers must obey traffic signals, including green, yellow, and red lights.",
+    "keywords": ["traffic signals", "red light", "green light", "yellow light"]
+  },
+  {
+    "type": "statute",
+    "jurisdiction": "CA",
+    "citation": "Cal. Veh. Code § 21800", 
+    "title": "Right-of-Way",
+    "text": "Drivers must yield the right-of-way to pedestrians and other vehicles in certain situations.",
+    "keywords": ["right of way", "yielding", "pedestrians", "traffic laws"]
+  },
+  {
+    "type": "faq",
+    "jurisdiction": "CA",
+    "question": "What are the penalties for speeding?",
+    "answer": "The penalties for speeding vary depending on the speed and other factors, but may include fines and points on your license.",
+    "keywords": ["speeding", "penalties", "fines", "points"]
+  },
+  {
+    "type": "faq",
+    "jurisdiction": "CA",
+    "question": "What should I do if I get a traffic ticket?",
+    "answer": "If you receive a traffic ticket, you have several options, including pleading guilty, pleading not guilty, or attending traffic school.",
+    "keywords": ["traffic ticket", "options", "guilty", "not guilty", "traffic school"]
+  },
+  {
+    "type": "user_question",
+    "question": "I ran a stop sign.  What's going to happen?",
+    "keywords": ["stop sign", "violation", "ticket"]
+  }
+]

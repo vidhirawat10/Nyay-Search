@@ -1,0 +1,33 @@
+{
+    "definitions": {
+      "contract": "A legally binding agreement between two or more parties.",
+      "offer": "A proposal by one party to another to enter into a contract.",
+      "acceptance": "Agreement by the offeree to the terms of the offer.",
+      "meeting of the minds": "Mutual assent or agreement between the parties on the essential terms of the contract.",
+      "breach of contract": "Failure by one party to perform their obligations under the contract.",
+      "remedy": "A legal solution to a breach of contract, such as damages or specific performance.",
+      "damages": "Monetary compensation awarded to the non-breaching party for losses caused by the breach of contract.",
+      "specific performance": "A court order requiring the breaching party to perform their obligations under the contract.",
+      "rescission": "Cancellation of a contract.",
+      "terms and conditions": "The provisions of a contract that outline the rights and obligations of the parties.",
+      "boilerplate": "Standard clauses commonly used in contracts.",
+      "force majeure": "A clause in a contract that excuses performance due to events beyond the control of the parties, such as natural disasters.",
+      "indemnification": "A clause in a contract where one party agrees to protect the other party from certain liabilities.",
+      "integration clause": "A clause stating that the written contract is the complete and final agreement between the parties.",
+      "severability clause": "A clause stating that if one part of the contract is found to be invalid, the rest of the contract remains in effect.",
+      "arbitration clause": "A clause requiring disputes to be resolved through arbitration rather than litigation.",
+      "mediation": "A process where a neutral third party helps parties in a dispute reach a settlement.",
+      "litigation": "The process of taking a legal dispute to court.",
+      "offeror": "The party making the offer.",
+      "offeree": "The party to whom the offer is made.",
+      "promisor": "The party who makes a promise.",
+      "promisee": "The party to whom a promise is made.",
+      "consideration": "Something of value exchanged between the parties to a contract.  It can be a promise, an act, or a forbearance.",
+      "essential terms": "The key provisions of a contract, such as the subject matter, price, and quantity.",
+      "ambiguous language": "Contract language that is unclear or can be interpreted in multiple ways.",
+      "conflicting language": "Contract language that contradicts other language in the contract.",
+      "legal advice": "Professional guidance provided by a lawyer on legal matters.  *Disclaimer: This chatbot does not provide legal advice.*",
+      "due diligence": "Reasonable steps taken to investigate a matter before entering into a contract.",
+      "negotiation": "The process of discussing and reaching an agreement on the terms of a contract."
+    }
+  }

@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Proc. Code § 1161",
+      "title": "Grounds for Eviction",
+      "text": "A landlord may evict a tenant for reasons such as non-payment of rent, violation of the lease agreement, or damage to the property.",
+      "keywords": ["eviction", "grounds", "non-payment", "lease violation", "damage"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Proc. Code § 1162",
+      "title": "Notice Requirements for Eviction",
+      "text": "Landlords must provide tenants with proper notice before starting eviction proceedings.  The type and length of notice vary depending on the reason for eviction.",
+      "keywords": ["eviction notice", "3-day notice", "30-day notice", "60-day notice"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "Davis v. Lee (2021)",
+      "summary": "This case clarified the requirements for serving an eviction notice. The court held that...",
+      "keywords": ["eviction notice", "service of process"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How can I stop an eviction?",
+      "answer": "You may be able to stop an eviction by...",
+      "keywords": ["eviction", "tenant defenses", "rent payment"]
+    },
+      {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What is an unlawful detainer?",
+      "answer": "An unlawful detainer is a lawsuit filed by a landlord to evict a tenant.",
+      "keywords": ["unlawful detainer", "eviction lawsuit"]
+    },
+    {
+      "type": "user_question",
+      "question": "My landlord is trying to evict me illegally. What can I do?",
+      "keywords": ["illegal eviction", "tenant rights"]
+    }
+  ]

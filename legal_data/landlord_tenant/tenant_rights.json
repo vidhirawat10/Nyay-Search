@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1941",
+      "title": "Habitable Premises",
+      "text": "Landlords have a duty to provide and maintain habitable premises. This includes...",
+      "keywords": ["tenant rights", "habitability", "repairs", "safe conditions"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1942",
+      "title": "Tenant's Remedies for Breach of Habitability",
+      "text": "If a landlord fails to maintain habitable premises, tenants may have certain remedies, such as...",
+      "keywords": ["tenant rights", "repairs", "rent abatement", "repair and deduct"]
+    },
+      {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What are my rights regarding privacy?",
+      "answer": "Landlords generally cannot enter a tenant's dwelling without proper notice, except in emergencies.",
+      "keywords": ["tenant rights", "privacy", "entry"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can my landlord discriminate against me?",
+      "answer": "Landlords cannot discriminate against tenants based on protected characteristics such as race, religion, or disability.",
+      "keywords": ["tenant rights", "discrimination", "fair housing"]
+    },
+    {
+      "type": "user_question",
+      "question": "My apartment has mold. What are my rights?",
+      "keywords": ["tenant rights", "mold", "habitability"]
+    }
+  ]

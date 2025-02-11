@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 1950",
+      "title": "Security Deposits",
+      "text": "Landlords have the right to collect a security deposit to cover potential damages or unpaid rent.",
+      "keywords": ["landlord rights", "security deposit", "damages", "rent"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Civ. Code § 827",
+      "title": "Rent Increases",
+      "text": "Landlords have the right to increase rent, but they must provide proper notice.",
+      "keywords": ["landlord rights", "rent increase", "notice"]
+    },
+      {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can I enter my tenant's property?",
+      "answer": "Landlords generally cannot enter a tenant's dwelling without proper notice, except in emergencies.",
+      "keywords": ["landlord rights", "entry", "notice"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "Can I evict a tenant?",
+      "answer": "Landlords have the right to evict a tenant for valid reasons, following proper procedures.",
+      "keywords": ["landlord rights", "eviction"]
+    },
+    {
+      "type": "user_question",
+      "question": "My tenant is constantly late with rent payments. What can I do?",
+      "keywords": ["landlord rights", "late rent", "eviction"]
+    }
+  ]

@@ -1,0 +1,37 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Fair Debt Collection Practices Act (FDCPA)", 
+      "title": "Prohibited Debt Collector Conduct",
+      "text": "Debt collectors are prohibited from engaging in abusive, harassing, or deceptive practices.",
+      "keywords": ["debt collection", "FDCPA", "prohibited conduct", "harassment"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "California Fair Debt Collection Practices Act (CFDCPA)",
+      "title": "California Debt Collection Laws",
+      "text": "California has its own debt collection laws that provide additional protections for consumers.",
+      "keywords": ["debt collection", "CFDCPA", "California law"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What are my rights when a debt collector contacts me?",
+      "answer": "You have certain rights when a debt collector contacts you, including the right to validate the debt and to tell them to stop contacting you.",
+      "keywords": ["debt collection", "consumer rights", "debt validation", "cease communication"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "What can I do if a debt collector is harassing me?",
+      "answer": "If a debt collector is harassing you, you can file a complaint with the appropriate regulatory agencies and consult with an attorney.",
+      "keywords": ["debt collection", "harassment", "complaint"]
+    },
+    {
+      "type": "user_question",
+      "question": "I keep getting calls from debt collectors about a debt I don't owe.  What should I do?",
+      "keywords": ["debt collection", "wrong debt", "dispute"]
+    }
+  ]

@@ -1,0 +1,35 @@
+[
+    {
+      "type": "checklist", 
+      "jurisdiction": "General",
+      "title": "Contract Review Checklist",
+      "items": [
+        "Identify the parties to the contract.",
+        "Review the terms and conditions carefully.",
+        "Check for any ambiguous or conflicting language.",
+        "Ensure that the contract accurately reflects the agreement between the parties.",
+        "Seek legal advice if necessary."
+      ],
+      "keywords": ["contract review", "checklist", "due diligence", "legal advice"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "What should I look for when reviewing a contract?",
+      "answer": "When reviewing a contract, you should pay close attention to...",
+      "keywords": ["contract review", "key provisions", "terms and conditions"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "General",
+      "question": "Why is it important to have a contract reviewed by an attorney?",
+      "answer": "An attorney can help you identify potential risks and ensure that the contract is legally sound.",
+      "keywords": ["contract review", "attorney", "legal advice", "risk assessment"]
+    },
+    {
+      "type": "user_question",
+      "question": "I received a contract from a client.  What are the most important things I should look for before signing?",
+      "keywords": ["contract review", "client contract", "important provisions"]
+    }
+  ]
+  

@@ -1,0 +1,44 @@
+[
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 2310",
+      "title": "Grounds for Divorce",
+      "text": "California is a \"no-fault\" divorce state.  The grounds for divorce are irreconcilable differences or incurable insanity.",
+      "keywords": ["divorce", "grounds", "irreconcilable differences", "no-fault"]
+    },
+    {
+      "type": "statute",
+      "jurisdiction": "CA",
+      "citation": "Cal. Fam. Code § 2330",
+      "title": "Residency Requirement",
+      "text": "To file for divorce in California, at least one spouse must have been a resident for six months and a resident of the county for three months.",
+      "keywords": ["divorce", "residency", "requirement"]
+    },
+    {
+      "type": "case_summary",
+      "jurisdiction": "CA",
+      "case_name": "In re Marriage of Brown (2019)",
+      "summary": "This case dealt with the division of property in a divorce where one spouse had significant separate property.",
+      "keywords": ["divorce", "property division", "separate property", "community property"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How do I file for divorce?",
+      "answer": "You can file for divorce by completing the required forms and filing them with the court.",
+      "keywords": ["divorce", "file", "forms", "court"]
+    },
+    {
+      "type": "faq",
+      "jurisdiction": "CA",
+      "question": "How is property divided in a divorce?",
+      "answer": "California is a community property state, meaning...",
+      "keywords": ["divorce", "property division", "community property"]
+    },
+    {
+      "type": "user_question",
+      "question": "My spouse and I want to get a divorce.  Where do we start?",
+      "keywords": ["divorce", "process", "how to"]
+    }
+  ]
