@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer Platform</title>
+    <title>Lawyer Search | NyaySearch</title>
     <link rel="stylesheet" href="../css/lawyersearch.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <div class="container">
@@ -19,10 +19,11 @@
                 <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
             </ul>
         </aside>
+
         <main class="content">
             <header>
                 <div class="search-box">
-                    <input type="text" placeholder="Search">
+                    <input type="text" id="searchInput" placeholder="Search Lawyers..." onkeyup="searchLawyers()">
                     <button><i class="fas fa-search"></i></button>
                 </div>
                 <button class="post-job">Add New Case</button>
@@ -40,16 +41,16 @@
                 </div>
 
                 <div class="freelancer-list">
-                    <div class="freelancer-card">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <h3>Michael Spitz</h3>
+                    <!-- Lawyer Cards -->
+                    <div class="freelancer-card" data-name="Michael Spitz">
+                        <img src="../images/man (2).png" alt="Profile Picture" class="profile-pic">
+                        <h3>Mr. Ram Jethmalani</h3>
                         <p class="location">Los Angeles, CA</p>
                         <span class="availability">AVAILABLE</span>
-                        <p class="description">Experienced attorney specializing in contract law and business litigation.</p>
+                        <p class="description">Expert in contract law and business litigation.</p>
                         <div class="skills">
                             <button>Contract Law</button>
                             <button>Business Litigation</button>
-                            <button>Negotiation</button>
                         </div>
                         <div class="projects-rate">
                             <span class="projects">15 Years Experience</span>
@@ -58,16 +59,15 @@
                         <button class="invite">View Profile</button>
                     </div>
 
-                    <div class="freelancer-card">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <h3>Marco Coppeto</h3>
+                    <div class="freelancer-card" data-name="Marco Coppeto">
+                        <img src="../images/man.png" alt="Profile Picture" class="profile-pic">
+                        <h3>Mr. Kapil Sibal</h3>
                         <p class="location">New York, NY</p>
                         <span class="availability unavailable">UNAVAILABLE</span>
-                        <p class="description">Real estate lawyer with expertise in property transactions and landlord-tenant disputes.</p>
+                        <p class="description">Real estate lawyer with property transaction expertise.</p>
                         <div class="skills">
                             <button>Real Estate Law</button>
                             <button>Property Transactions</button>
-                            <button>2 more</button>
                         </div>
                         <div class="projects-rate">
                             <span class="projects">10+ Cases Won</span>
@@ -76,16 +76,15 @@
                         <button class="invite">View Profile</button>
                     </div>
 
-                    <div class="freelancer-card">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <h3>Gene Ross</h3>
+                    <div class="freelancer-card" data-name="Gene Ross">
+                        <img src="../images/woman.png" alt="Profile Picture" class="profile-pic">
+                        <h3>Mrs. Indira Jaising</h3>
                         <p class="location">Los Angeles, CA</p>
                         <span class="availability">AVAILABLE</span>
-                        <p class="description">Family law attorney specializing in divorce, custody battles, and child support.</p>
+                        <p class="description">Family law attorney specializing in custody battles.</p>
                         <div class="skills">
                             <button>Family Law</button>
                             <button>Divorce</button>
-                            <button>Child Custody</button>
                         </div>
                         <div class="projects-rate">
                             <span class="projects">5 Star Rating</span>
@@ -94,11 +93,67 @@
                         <button class="invite">View Profile</button>
                     </div>
 
+                    <div class="freelancer-card" data-name="Vidhi Rawat">
+                        <img src="../images/woman2.png" alt="Profile Picture" class="profile-pic">
+                        <h3>Vidhi Rawat</h3>
+                        <p class="location">Delhi, India</p>
+                        <span class="availability">AVAILABLE</span>
+                        <p class="description">Experienced criminal lawyer specializing in criminal defense and legal advocacy.</p>
+                        <div class="skills">
+                            <button>Criminal Law</button>
+                            <button>Legal Advocacy</button>
+                        </div>
+                        <div class="projects-rate">
+                            <span class="projects">10+ Years Experience</span>
+                            <span class="rate">$250/hr</span>
+                        </div>
+                        <button class="invite">View Profile</button>
                     </div>
+                    
+                </div>
             </section>
         </main>
     </div>
 
-    <script src="../js/script.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:support@nyaysearch.com">support@nyaysearch.com</a></p>
+                <p>Phone: +91-123-456-7890</p>
+                <p>Address: Connaught Place, New Delhi, India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NyaySearch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function searchLawyers() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let cards = document.querySelectorAll('.freelancer-card');
+
+            cards.forEach(card => {
+                let name = card.getAttribute('data-name').toLowerCase();
+                if (name.includes(input)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        }
+    </script>
 </body>
 </html>

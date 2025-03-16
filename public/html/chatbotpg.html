@@ -6,25 +6,24 @@
     <title>Chatbot</title>
     <link rel="stylesheet" href="../css/chatbotpg.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <div class="container">
         <div class="left-content">
             <h1>Legal Guidance<br>at Your Fingertips</h1>
             <img src="../images/chatbot.svg" alt="chatbot">
-            <p>Get quick answers to your legal questions and navigate complex legal topics with ease.  Our AI-powered legal chatbot provides instant information and resources, 24/7.</p>
+            <p>Get quick answers to your legal questions and navigate complex legal topics with ease. Our AI-powered legal chatbot provides instant information and resources, 24/7.</p>
             <button onclick="redirectTologinpg()">SIGN UP FREE</button>
         </div>
         <div class="right-content">
             <div class="chat-area"> 
-                 <div class="message">User: Hello</div>
-                 <div class="message bot">Bot: Hi there!</div>
-
+                <div class="message user">:User  Hello</div>
+                <div class="message bot">Bot: Hi there! How can I assist you today?</div>
+                <div class="message user">:User  I need help with a contract issue.</div>
+                <div class="message bot">Bot: Sure! Please provide details about the issue.</div>
             </div>
-            <br>
             <div class="input-area">
-                <input type="text" placeholder="Say something...">
+                <input type="text" placeholder="Type your message...">
                 <div class="input-buttons">
                     <button><img src="../images/image.svg" alt="Image"></button>
                     <button><img src="../images/video.svg" alt="Video"></button>
@@ -36,6 +35,5 @@
     </div>
 
     <script src="../js/script.js"></script>
-
 </body>
 </html>

@@ -1,126 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Community Forum</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Forum - NyaySearch</title>
     <link rel="stylesheet" href="../css/communityforum.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+    <!-- Navbar -->
     <header>
-        <div class="navbar">
-            <div class="logo">NyaySearch</div>
-            <nav>
-                <ul>
-                    <li><a href="#"><img src="../images/progress.svg" alt="Progress Icon">Progress</a></li>
-                    <li><a href="#"><img src="../images/new.svg" alt="New Icon">What's New</a></li>
-                    <li><a href="#"><img src="../images/stats.svg" alt="Stats Icon">Stats</a></li>
-                    <li><a href="#"><img src="../images/community.svg" alt="Community Icon">Community</a></li>
-                    <li>
-                        <a href="login.html">  <img src="../images/user.svg" alt="User Login" class="user-icon"> </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <div class="logo">NyaySearch</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Legal Help</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <!-- Main Container -->
     <div class="container">
+
+        <!-- Left Sidebar -->
         <aside class="sidebar">
             <h2>Everything</h2>
             <ul>
-                <li><a href="#"><img src="../images/account.svg" alt="Account Icon"><b>Accountability Group</b></a></li>
-                <li><a href="#"><img src="../images/discussion.svg" alt="Discussions Icon"><b>All Discussions</b></a></li>
-                <li><a href="#"><img src="../images/message.svg" alt="Messages Icon"><b>Messages</b></a></li>
-                <li><a href="#"><img src="../images/list.svg" alt="Activity Icon"><b>My Activity</b></a></li>
+                <li><a href="#">General Discussions</a></li>
+                <li><a href="#">Legal Advice</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Recent Posts</a></li>
+                <li><a href="#">Upcoming Events</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Legal News</a></li>
             </ul>
-            <div class="members">
-                <h3>Members (32)</h3>
-                <ul>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Ron Bush</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Samuel Piedra</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Nathan Rodgers</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Josh Schoen</b></a></li>
-                    <li><a href="#"><b>See All</b></a></li>
-                </ul>
-            </div>
         </aside>
-        <main class="content">
-            <div class="container2">
-                <div class="post">
-                    <div class="post-header">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <div class="post-meta">
-                            <h3 class="post-title">Breach of Contract Dispute - Need Advice</h3>
-                            <p class="post-info">Jane Doe in Contract Law Discussions</p>
-                        </div>
-                        <span class="post-time">7h ago</span>
-                    </div>
-                    <p class="post-content">I recently entered into a contract with a vendor for website development, and they failed to deliver the project on time and according to the agreed specifications. What are my legal options for pursuing damages or forcing them to complete the work? <a href="#">Read more</a></p>
-                    <div class="post-actions">
-                        <button><i class="fas fa-thumbs-up"></i> Like</button>
-                        <button><i class="fas fa-comment"></i> Comment</button>
-                    </div>
-        
-                    <div class="comment">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <div class="comment-content">
-                            <p>LegalEagle</p>
-                            <p>Consider sending a formal demand letter outlining the breaches and your desired resolution. It's often a good first step before litigation.</p>
-                            <div class="comment-actions">
-                                <a href="#">Reply</a> <span class="dot">•</span> <a href="#">Helpful</a> <span class="dot">•</span> <span>2m</span>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="comment">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <div class="comment-content">
-                            <p>LawStudent123</p>
-                            <p>You might want to consult with a lawyer specializing in contract law to assess the specific details of your contract and the potential remedies available.</p>
-                            <div class="comment-actions">
-                                <a href="#">Reply</a> <span class="dot">•</span> <a href="#">Helpful (1)</a> <span class="dot">•</span> <span>2m</span>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="comment teacher">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <div class="comment-content">
-                            <span class="teacher-tag">LAWYER</span>
-                            <p>Attorney Smith</p>
-                            <p>Depending on the contract terms, you may be entitled to specific performance (forcing the vendor to complete the work) or monetary damages. Review the force majeure clause as well.</p>
-                            <div class="comment-actions">
-                                <a href="#">Reply</a> <span class="dot">•</span> <a href="#">Helpful (10)</a> <span class="dot">•</span> <span>2m</span>
-                            </div>
-                        </div>
-                    </div>
-        
-                    <div class="add-comment">
-                        <img src="../images/profilecf.svg" alt="Profile Picture" class="profile-pic">
-                        <input type="text" placeholder="Write a comment...">
-                    </div>
-                </div>
-            </div>
+
+        <!-- Main Content -->
+        <main>
             <div class="post">
-                <h3>Unfair Security Deposit Deduction: What Are My Rights?</h3>
-                <p>My landlord is refusing to return my security deposit, claiming damages that I don't believe are legitimate. What are my rights as a tenant, and how can I get my deposit back? </p>
-                <div class="post-meta">
-                    <span class="author">AskALawyer</span>
-                    <span class="date">1 day ago</span>
-                    <span class="comments">77 comments</span>
+                <h2>Breach of Contract Dispute - Need Advice</h2>
+                <p class="post-meta">Jane Doe in Contract Law Discussions • 7h ago</p>
+                <p>
+                    I recently entered into a contract with a vendor for website development, and they failed to deliver the project on time and according to the agreed specifications. 
+                    What are my legal options for pursuing damages or forcing them to complete the work?
+                    <a href="#">Read more</a>
+                </p>
+                <div class="post-actions">
+                    <button>👍 Like</button>
+                    <button>💬 Comment</button>
                 </div>
             </div>
-            </main>
-        <aside class="sidebar-right">
-            <div class="section">
-                <h3>My Accountability Group</h3>
-                <p>One Step Ahead of You</p>
+
+            <div class="post">
+                <h2>How to Handle a Divorce Case</h2>
+                <p class="post-meta">Alice Johnson in Family Law Discussions • 1d ago</p>
+                <p>
+                    I am going through a tough divorce and need advice on how to proceed with the legal aspects. 
+                    What should I be aware of?
+                    <a href="#">Read more</a>
+                </p>
+                <div class="post-actions">
+                    <button>👍 Like</button>
+                    <button>💬 Comment</button>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <p><strong>LegalEagle:</strong> Consider sending a formal demand letter outlining the breaches and your desired resolution. It's often a good first step before litigation.</p>
+                <div class="comment-actions">
+                    <button>Reply</button>
+                    <button>Helpful</button>
+                </div>
+            </div>
+
+            <div class="comment-box">
+                <p><strong>LawStudent123:</strong> You might want to consult with a lawyer specializing in contract law to assess the specific details of your contract.</p>
+                <div class="comment-actions">
+                    <button>Reply</button>
+                    <button>Helpful</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="right-sidebar">
+            <h2>My Accountability Group</h2>
+            <p>One Step Ahead of You</p>
+            <ul>
+                <li><a href="#">Ron Bush</a></li>
+                <li><a href="#">Samuel Piedra</a></li>
+                <li><a href="#">Nathan Rodgers</a></li>
+                <li><a href="#">Josh Schoen</a></li>
+                <li><a href="#">Emily Clark</a></li>
+                <li><a href="#">Michael Johnson</a></li>
+            </ul>
+            <h2>Popular Topics</h2>
+            <ul>
+                <li><a href="#">Family Law</a></li>
+                <li><a href="#">Criminal Law</a></li>
+                <li><a href="#">Employment Law</a></li>
+                <li><a href="#">Real Estate Law</a></li>
+                <li><a href="#">Tax Law</a></li>
+                <li><a href="#">Corporate Law</a></li>
+            </ul>
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Ron Bush</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Samuel Piedra</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Nathan Rodgers</b></a></li>
-                    <li><a href="#"><img src="../images/profilecf.svg" alt="Profile Icon"><b>Josh Schoen</b></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
                 </ul>
             </div>
-            </aside>
-    </div>
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:support@nyaysearch.com">support@nyaysearch.com</a></p>
+                <p>Phone: +91-123-456-7890</p>
+                <p>Address: NyaySearch Pvt. Ltd., Connaught Place, New Delhi, India</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="../images/facebook-logo.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../images/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="../images/linkedin.png" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="../images/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter to receive updates on new features and services.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email address">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NyaySearch. All rights reserved.</p>
+        </div>
+    </footer>
+
     <script src="../js/script.js"></script>
 </body>
 </html>

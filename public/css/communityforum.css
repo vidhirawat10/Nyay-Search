@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -273,4 +273,257 @@ body {
     padding: 5px 0;
     text-decoration: none;
     color: #007bff;
+} */
+ 
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px; /* Added padding for better hover effect */
+    border-radius: 5px; /* Rounded corners */
+    transition: background 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for navbar links */
+nav ul li a:hover {
+    background: #007bff; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Container */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Sidebar */
+.sidebar, .right-sidebar {
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2, .right-sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar ul, .right-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li a, .right-sidebar ul li a {
+    display: block;
+    text-decoration: none;
+    color: #007bff;
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover, .right-sidebar ul li a:hover {
+    color: #0056b3;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #666;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background 0.3s;
+}
+
+.post-actions button:hover {
+    background: #0056b3;
+}
+
+/* Comments */
+.comment-box {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-actions {
+    margin-top: 5px;
+}
+
+.comment-actions button {
+    background: #ddd;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background 0.3s;
+}
+
+.comment-actions button:hover {
+    background: #bbb;
+}
+
+/* Footer Styling */
+.footer {
+    background: #121212;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-contact p a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links ul li a:hover,
+.footer-contact p a:hover {
+    color: #facc15;
+    transform: scale(1.1);
+}
+
+/* Social Media Icons */
+.footer-social ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social ul li a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-social ul li a img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Newsletter */
+.footer-newsletter input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.footer-newsletter button {
+    padding: 10px 15px;
+    background: #facc15;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.footer-newsletter button:hover {
+    background: #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+    background: #1a1a1a;
+    font-size: 14px;
 }

@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: sans-serif;
     margin: 0;
     background-color: #f4f4f4;
@@ -142,4 +142,320 @@ header {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+} */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.menu li a i {
+    margin-right: 10px;
+}
+
+.menu li a:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateX(5px);
+}
+
+/* Main Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-box input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    width: 300px;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-box button {
+    background: #007bff;
+    border: none;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-box button:hover {
+    background: #0056b3;
+}
+
+/* Add Case Button */
+.post-job {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.post-job:hover {
+    background-color: #218838;
+}
+
+/* Freelancer Section */
+.freelancers .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-options button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.filter-options button:hover {
+    background: #0056b3;
+}
+
+/* Freelancer List */
+.freelancer-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    grid-gap: 20px;
+}
+
+/* Freelancer Card */
+.freelancer-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.freelancer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.location, .availability, .description {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.availability.unavailable {
+    color: red;
+    font-weight: bold;
+}
+
+/* Skill Badges */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.skills button {
+    background-color: #eee;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.skills button:hover {
+    background-color: #ddd;
+}
+
+/* Projects & Rate */
+.projects-rate {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.invite {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.invite:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background: #121212;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Footer Links */
+.footer-links ul, .footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li, .footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a, .footer-contact p a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links ul li a:hover, .footer-contact p a:hover {
+    color: #facc15;
+    transform: scale(1.1);
+}
+
+/* Social Media Icons */
+.footer-social ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social ul li a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-social ul li a img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Newsletter */
+.footer-newsletter input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.footer-newsletter button {
+    padding: 10px 15px;
+    background: #facc15;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.footer-newsletter button:hover {
+    background: #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+    background: #1a1a1a;
+    font-size: 14px;
 }

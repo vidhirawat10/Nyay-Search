@@ -1,7 +1,8 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     color: #333;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -9,8 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    background: black;
+    color: white;
 }
 
 .logo h1 {
@@ -30,7 +31,12 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: white;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f0f0f0;
 }
 
 .right-header {
@@ -39,16 +45,22 @@ nav a {
 
 .right-header button {
     background: none;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     padding: 10px 20px;
     margin-left: 10px;
     border-radius: 4px;
     cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.right-header button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .hero {
-    background-color: #f8f8f8;
-    padding: 100px 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url('../images/legal-background.jpg') no-repeat center center/cover;
+    padding: 120px 0;
     text-align: center;
 }
 
@@ -58,40 +70,79 @@ nav a {
 }
 
 .hero h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
-.search-box {
+.search-container {
     display: flex;
-    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
 }
 
-.search-box input {
-    flex-grow: 1;
-    padding: 10px;
+.search-container input {
+    width: 100%;
+    padding: 15px;
     border: 1px solid #ddd;
-    border-radius: 4px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    transition: box-shadow 0.3s;
 }
 
-.search-box button {
-    background-color: #007bff;
+.search-container input:focus {
+    box-shadow: 0 0 5px rgba(212, 220, 228, 0.5);
+    outline: none;
+}
+
+.search-container button {
+    background-color: grey;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: grey;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.category-buttons button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-buttons button:hover {
+    background-color: grey;
 }
 
 .trending {
     color: #777;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .main-content {
     padding: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .tabs {
@@ -106,10 +157,11 @@ nav a {
     margin-right: 10px;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .tabs button.active {
-    background-color: #007bff;
+    background-color: grey;
     color: #fff;
 }
 
@@ -120,16 +172,27 @@ nav a {
 }
 
 .gpt-card {
-    border: 1px solid #ddd;
+    border: 2px solid #e87e4f;
     padding: 20px;
     border-radius: 8px;
+    background-color: #f9a57f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gpt-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    background-color: #007bff30;
+    border-radius: 50%;
+    padding: 10px;
+    display: inline-block;
 }
 
 .gpt-card img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
 }
 
 .gpt-card h3 {
@@ -142,12 +205,109 @@ nav a {
 }
 
 .rating {
-    color: gold;
+    display: flex;
+    align-items: center;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+.rating .stars {
+    color: gold;
+    margin-right: 5px;
+}
+
+/* Footer Styling */
+.footer {
+    background: #121212;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-links ul,
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a,
+.footer-contact p a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links ul li a:hover,
+.footer-contact p a:hover {
+    color: #facc15;
+    transform: scale(1.1);
+}
+
+/* Social Media Icons */
+.footer-social ul {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social ul li a img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.footer-social ul li a img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Newsletter */
+.footer-newsletter input {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.footer-newsletter button {
+    padding: 10px 15px;
+    background: #facc15;
+    border: none;
+    color: black;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+.footer-newsletter button:hover {
+    background: #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
     text-align: center;
+    margin-top: 30px;
+    padding: 15px 0;
+    background: #1a1a1a;
+    font-size: 14px;
 }

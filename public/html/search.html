@@ -10,100 +10,180 @@
 <body>
     <header>
         <div class="logo">
-            <h1>legalgpt.ai</h1>
+            <h1>LegalGPT.ai</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#">Categories <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="#">Categories</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Creators</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
         </nav>
         <div class="right-header">
-            <button>Request Ad</button>
-            <button>Submit</button>
+            <button class="request-ad">Request Ad</button>
+            <button class="submit">Submit</button>
         </div>
     </header>
 
     <section class="hero">
         <div class="hero-content">
-            <h2>Explore Best Legal GPTs</h2>
-            <p>on Legal GPT Store</p>
-            <div class="search-box">
-                <input type="text" placeholder="Search Legal GPTs">
+            <h2>Discover the Best Legal GPTs</h2>
+            <p>Your AI-powered legal assistant awaits.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search for legal cases, laws, or documents...">
                 <button><i class="fas fa-search"></i></button>
             </div>
-            <p class="trending">Trending: contract analysis, legal research, document review, case prediction...</p>
+            <div class="category-buttons">
+                <button>Case Laws</button>
+                <button>Legal Articles</button>
+                <button>AI Legal Tools</button>
+            </div>
+            <p class="trending">Trending: contract analysis, legal research, document review...</p>
         </div>
     </section>
 
     <section class="main-content">
         <div class="tabs">
             <button class="active">Popular</button>
-            <button>Recents</button>
+            <button>Recent</button>
         </div>
 
         <div class="gpt-list">
             <div class="gpt-card">
-                <img src="../images/gpt.svg" alt="GPT Icon">
+                <div class="card-icon"><img src="../images/gpt.svg" alt="GPT Icon"></div>
                 <h3>Contract Analyzer</h3>
                 <p>@LegalTech Solutions</p>
                 <p>Analyze contracts for key terms, risks, and compliance issues.</p>
                 <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i> 4.5
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.5</span>
                 </div>
+                <button class="cta-button">Try Now</button>
             </div>
 
             <div class="gpt-card">
-                <img src="../images/gpt.svg" alt="GPT Icon">
+                <div class="card-icon"><img src="../images/gpt.svg" alt="GPT Icon"></div>
                 <h3>Legal Research Assistant</h3>
                 <p>@JurisAI</p>
                 <p>Quickly find relevant case law, statutes, and legal articles.</p>
                 <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> 4.0
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span>4.0</span>
                 </div>
+                <button class="cta-button">Try Now</button>
             </div>
 
             <div class="gpt-card">
-                <img src="../images/gpt.svg" alt="GPT Icon">
+                <div class="card-icon"><img src="../images/gpt.svg" alt="GPT Icon"></div>
                 <h3>Document Review Bot</h3>
                 <p>@LexiBot</p>
                 <p>Automate legal document review for efficiency and accuracy.</p>
                 <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i> 3.8
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span>3.8</span>
                 </div>
+                <button class="cta-button">Try Now</button>
             </div>
 
             <div class="gpt-card">
-                <img src="../images/gpt.svg" alt="GPT Icon">
+                <div class="card-icon"><img src="../images/gpt.svg" alt="GPT Icon"></div>
                 <h3>Case Outcome Predictor</h3>
                 <p>@Predictive Analytics</p>
                 <p>Predict potential case outcomes based on historical data and legal precedents.</p>
                 <div class="rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i> 4.2
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.2</span>
                 </div>
+                <button class="cta-button">Try Now</button>
+            </div>
+
+            <div class="gpt-card">
+                <div class="card-icon"><img src="../images/gpt.svg" alt="GPT Icon"></div>
+                <h3>Legal Drafting Assistant</h3>
+                <p>@DraftSmart</p>
+                <p>Streamline your legal drafting process with AI assistance.</p>
+                <div class="rating">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span>4.6</span>
+                </div>
+                <button class="cta-button">Try Now</button>
             </div>
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 legalgpt.ai</p>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:support@nyaysearch.com">support@nyaysearch.com</a></p>
+                <p>Phone: +91-123-456-7890</p>
+                <p>Address: NyaySearch Pvt. Ltd., Connaught Place, New Delhi, India</p>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="../images/facebook-logo.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../images/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="../images/linkedin.png" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="../images/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter to receive updates on new features and services.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email address">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 NyaySearch. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="../js/script.js"></script>
-
 </body>
 </html>

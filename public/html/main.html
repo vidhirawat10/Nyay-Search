@@ -3,269 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NyaySearch-new</title>
+    <title>NyaySearch</title>
     <link rel="stylesheet" href="../css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
     <header>
-        <div class="navbar">
-            <div class="logo">NyaySearch</div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#feature">Features</a></li>
-                    <li><a href="#user">User Specific</a></li>
-                    <li><a href="#working">How do we work ?</a></li>
-                    <li><a href="#public">Open Public Service</a></li>
-                    <li>
-                        <a href="login.html">  <img src="../images/user.svg" alt="User Login" class="user-icon"> </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <!--Intro Section-->
-    <section id="about" class="hero">
-        <div class="hero-content">
-            <h1><i>Empowering Justice Through AI-Driven Legal Research</i></h1>
-            <p>Get instant legal insights, case precedents, and AI-powered assistance tailored to your needs.</p>
-        <div class="button1">
-            <button onclick="redirectTosearchpage()">Start Your Search 🏛️</button>
-            <button onclick="redirectToChatbot()">Ask Nyay AI 🤖</button>
-        </div>
-        </div>
-        <div class="hero-image">
-            <img src="../images/map.png" alt="NyaySearch India Map">
-        </div> 
-    </section>
-
-    <!--Feature Section-->
-    <section id="feature">
-        <div class="feature-heading">
-            <h1>📌Key Features: Empowering Your Legal Workflow</h1>
-            <p>Explore the powerful features our website offers to streamline your legal research.</p>
-        </div>
-        <div class="features">  
-        <div class="feature-box">
-            <img src="../images/aitech.png" alt="Comprehensive Legal Database">
-            <h3>Unlocking Legal Insights with AI</h3>
-            <p>Empowering legal professionals with cutting-edge AI tools for faster, smarter, and more informed decisions.</p>
-        </div>
-        <div class="feature-box">
-            <img src="../images/input.svg" alt="Extensive Case Law Coverage">
-            <h3>Multi-Format Support</h3>
-            <p>Seamlessly access and analyze legal information across diverse formats(text,audio,image,video)</p>
-        </div>
-        <div class="feature-box">
-            <img src="../images/doc.png" alt="Powerful Legal Research Tools">
-            <h3>Forensic-Level Fact-Checking</h3>
-            <p>Verify digital evidence with unparalleled accuracy and speed using AI.</p>
-        </div>
-        <div class="feature-box">
-            <img src="../images/gavel.png" alt="Cutting-edge Legal Solutions">
-            <h3>Predictive Legal Foresight</h3>
-            <p>Anticipate legal outcomes with AI-powered analysis of past cases and legislation.</p>
-        </div>
-        <div class="feature-box">
-            <img src="../images/earth.png" alt="Cutting-edge Legal Solutions">
-            <h3>Global Legal Reach</h3>
-            <p>Break language barriers and access legal knowledge from around the world.</p>
-        </div>
-        <div class="feature-box">
-            <img src="../images/legal.svg" alt="Cutting-edge Legal Solutions">
-            <h3>Data-Driven Legal Strategy</h3>
-            <p>Craft winning strategies with AI-powered predictions of legal outcomes.</p>
-        </div>
-        </div>
-    </section>
-
-    <!--User Specific Section-->
-  <section id="user" class="testimonials">
-    <div class="feature-heading">
-        <h1>👥 Tailored Legal Assistance for Everyone</h1>
-        <p>Your AI-Powered Legal Assistant in Just a Few Clicks !!</p>
-    </div>
-    <br><br>
-    <div class="testimonial-container">
-        <div class="testimonial">
-            <img alt="common citizen" src="../images/citizen.svg" />
-            <hr />
-            <p class="name"><b>For Common Citizens 🏠</b></p>
-            <p><i>"Know Your Rights, Navigate Legalities with Ease!"</i></p>
-            <p class="title">
-                <ul>
-                    <li>Understand legal procedures before taking action.</li>
-                    <li>Get AI-driven insights on your case scenario.</li>
-                    <li>Access multilingual support for better clarity.</li>
-                    <li>Verify documents and evidence for legal use.</li>
-                </ul>
-            </p>
-        </div>
-        <div class="testimonial">
-            <img alt="Lawyers" src="../images/lawyer.svg" />
-            <hr />
-            <p class="name"><b>For Lawyers ⚖️</b></p>
-            <p><i>"Smart Research, Faster Case Preparation!"</i></p>
-            <p class="title">
-                <ul>
-                    <li>Advanced legal search with case precedent analysis.</li>
-                    <li>AI-powered act summarization for quick insights.</li>
-                    <li>Digital evidence verification to strengthen cases.</li>
-                    <li>Stay updated with the latest legal trends and rulings.</li>
-                </ul>
-            </p>
-        </div>
-        <div class="testimonial">
-            <img alt="Judges" src="../images/judge.svg" />
-            <hr />
-            <p class="name"><b>For Judges 🏛️</b></p>
-            <p><i>"Enhancing Judicial Efficiency with AI!"</i></p>
-            <p class="title">
-                <ul>
-                    <li>Quick access to similar case precedents and rulings.</li>
-                    <li>AI-assisted legal insights to support fair judgments.</li>
-                    <li>Secure and verified legal document analysis.</li>
-                    <li>Comprehensive law summaries for reference.</li>
-                </ul>
-            </p>
-        </div>
-
-    </div>
-</section>
-
-    <!--Working Section-->
-<section id="working" class="working">
-    <div class="feature-heading">
-        <h1>🔍 How Nyay Search Works</h1>
-        <p>Your AI-Powered Legal Assistant in Just a Few Clicks !!</p>
-    </div>
-    <div class="container-main">
-      <div class="container right">
-        <div class="content">
-          <div class="tag">
-            <h2>1️⃣ Enter Your Query </h2>
-          </div>
-          <div class="desc">
-            <p> Type, speak, or upload an image/video to describe your legal issue. </p>
-          </div>
-        </div>
-      </div>
-      <div class="container left">
-        <div class="content">
-          <div class="tag">
-            <h2>2️⃣ AI Analyzes & Summarizes</h2>
-          </div>
-          <div class="desc">
-            <p>Our smart system scans legal databases to extract relevant insights.</p>
-          </div>
-        </div>
-      </div>
-      <div class="container right">
-        <div class="content">
-          <div class="tag">
-            <h2>3️⃣ Get Case Precedents & Laws </h2>
-          </div>
-          <div class="desc">
-            <p> Instantly access past judgments, legal provisions, and expert recommendations. </p>
-          </div>
-        </div>
-      </div>
-      <div class="container left">
-        <div class="content">
-          <div class="tag">
-            <h2>4️⃣ Take Informed Action</h2>
-          </div>
-          <div class="desc">
-            <p>Receive guidance on legal steps, rights, and possible case outcomes.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-<br><br><br>
-    <!--Public Service Section-->
-    <section id="public" class="testimonials">
-        <div class="feature-heading">
-            <h1> ⚖️Connect, Discuss & Seek Legal Expertise </h1>
-            <p>Engage in insightful legal discussions, connect with experts, and get guidance from experienced lawyers—all in one place</p>
-        </div>
-        <br><br>
-        <div class="testimonial-container">
-            <div class="functionality">
-                <img alt="common citizen" src="../images/forum.svg" />
-                <hr />
-                <p class="name"><b> Community Forum & Discussion Board 🗣️💬</b></p>
-                <p><i>Join an interactive legal community where you can ask questions, share insights, and discuss legal matters with peers, experts, and professionals. Stay informed, exchange knowledge, and find support for your legal concerns.</i></p>
-                <div class="button1">
-                    <button onclick="redirectTocommunityforum()">Explore the Forum 💬</button>
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-left">
+                    <!-- <button id="menu-btn" class="menu-icon"><i class="fas fa-bars"></i></button> -->
+                    <span class="brand">NyaySearch</span>
+                </div>
+                <div class="nav-right">
+                    <a href="#about">About</a>
+                    <a href="#feature">Features</a>
+                    <a href="#user">NyayBot</a>
+                    <!-- <a href="#contact">Contact</a> -->
+                    <a href="#signin">Sign In</a>
+                    <!-- <button id="dark-mode-toggle" class="dark-mode-btn"><i class="fas fa-moon"></i></button>-->
+                    <div class="user-menu">
+                        <button id="user-btn" class="user-icon"><i class="fas fa-user-circle"></i></button>
+                        <div id="user-dropdown" class="dropdown"> 
+                            <a href="#">Profile</a>
+                            <a href="#">Settings</a>
+                            <a href="#">Logout</a>
+                        </div>
+                        
+                    </div> 
+                    
                 </div>
             </div>
-            <div class="functionality">
-                <img alt="Lawyers" src="../images/lawyerP.svg" />
-                <hr />
-                <p class="name"><b>Featured Lawyers & Experts 👩‍⚖️👨‍⚖️</b></p>
-                <p><i>Get direct access to verified legal professionals specializing in various fields of law. Browse expert profiles, seek guidance, and consult lawyers to make informed legal decisions with confidence.</i></p>
-                <br>
-                <div class="button2">
-                    <button onclick="redirectTolawyersearch()">Search Legal Experts 👩‍⚖️</button>
+        </nav>
+
+        <section id="about" class="hero">
+            <div class="hero-content">
+                <h1><i>Revolutionizing Legal Research with AI-Powered Insights</i></h1>
+                <p>Get instant legal insights, case precedents, and AI-powered assistance tailored to your needs.</p>
+                <div class="buttons">
+                    <button class="btn1" onclick="redirectTosearchpage()">Start Your Search 🏛️</button>
+                    <button class="btn2" onclick="redirectToChatbot()">Ask Nyay AI 🤖</button>
                 </div>
-            </div>  
-        </div>
-    </section>
-<br><br><Br>
-  <!--Footer Section-->
-  <footer class="footer">
-    <div class="footer-container">
-        <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-            </ul>
-        </div>
-        <div class="footer-contact">
-            <h3>Contact Information</h3>
-            <p>Email: <a href="mailto:support@nyaysearch.com">support@nyaysearch.com</a></p>
-            <p>Phone: +91-123-456-7890</p>
-            <p>Address: <a href="#">NyaySearch Pvt. Ltd.,
-                123 Legal Lane,
-                Connaught Place,
-                New Delhi, 110001,
-                India</a></p>
-        </div>
-        <div class="footer-social">
-            <h3>Follow Us</h3>
-            <ul>
-                <li><a href="#" target="_blank"><img src="../images/facebook-logo.png" alt="Facebook"></a></li>
-                <li><a href="#" target="_blank"><img src="../images/twitter.png" alt="Twitter"></a></li>
-                <li><a href="#" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn"></a></li>
-                <li><a href="#" target="_blank"><img src="../images/instagram.png" alt="Instagram"></a></li>
-            </ul>
-        </div>
-        <div class="footer-newsletter">
-            <h3>Stay Updated</h3>
-            <p>Subscribe to our newsletter to receive updates on new features and services.</p>
-            <form>
-                <input type="email" placeholder="Enter your email address">
-                <button>Subscribe</button>
-            </form>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <p>&copy; 2024 NyaySearch. All rights reserved.</p>
-    </div>
-</footer>
+            </div>
+            <div class="hero-image">
+                <img src="../images/map.png" alt="NyaySearch India Map">
+            </div> 
+        </section>
 
-<script src="../js/script.js"></script>
+        <div class="divider"></div>
 
+        <section id="feature">
+            <div class="feature-heading">
+                <h1>📌 Key Features: Empowering Your Legal Workflow</h1>
+                <p>Explore the powerful features our website offers to streamline your legal research.</p>
+            </div>
+            <div class="features">  
+                <div class="feature-box">
+                    <img src="../images/aitech.png" alt="AI Legal Insights">
+                    <h3>Unlocking Legal Insights with AI</h3>
+                    <p>Empowering legal professionals with cutting-edge AI tools for faster, smarter, and more informed decisions.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="../images/input.svg" alt="Multi-Format Support">
+                    <h3>Multi-Format Support</h3>
+                    <p>Seamlessly access and analyze legal information across diverse formats (text, audio, image, video).</p>
+                </div>
+                <div class="feature-box">
+                    <img src="../images/doc.png" alt="Fact-Checking AI">
+                    <h3>Forensic-Level Fact Checking</h3>
+                    <p>Verify digital evidence with unparalleled accuracy and speed using AI.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="../images/gavel.png" alt="Predictive Legal Foresight">
+                    <h3>Predictive Legal Foresight</h3>
+                    <p>Anticipate legal outcomes with AI-powered analysis of past cases and legislation.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="../images/earth.png" alt="Global Legal Reach">
+                    <h3>Global Legal Reach</h3>
+                    <p>Break language barriers and access legal knowledge from around the world.</p>
+                </div>
+                <div class="feature-box">
+                    <img src="../images/legal.svg" alt="Data-Driven Legal Strategy">
+                    <h3>Data-Driven Legal Strategy</h3>
+                    <p>Craft winning strategies with AI-powered predictions of legal outcomes.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="user" class="testimonials">
+            <div class="feature-heading">
+                <h1>👥 Tailored Legal Assistance for Everyone</h1>
+                <p>Your AI-Powered Legal Assistant in Just a Few Clicks!</p>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <img alt="common citizen" src="../images/citizen.svg" />
+                    <p class="name"><b>For Common Citizens 🏠</b></p>
+                    <p><i>"Know Your Rights, Navigate Legalities with Ease!"</i></p>
+                    <ul class="title">
+                        <li>Understand legal procedures before taking action.</li>
+                        <li>Get AI-driven insights on your case scenario.</li>
+                        <li>Access multilingual support for better clarity.</li>
+                        <li>Verify documents and evidence for legal use.</li>
+                    </ul>
+                </div>
+                <div class="testimonial">
+                    <img alt="Lawyers" src="../images/lawyer.svg" />
+                    <p class="name"><b>For Lawyers ⚖️</b></p>
+                    <p><i>"Smart Research, Faster Case Preparation!"</i></p>
+                    <ul class="title">
+                        <li>Advanced legal search with case precedent analysis.</li>
+                        <li>AI-powered act summarization for quick insights.</li>
+                        <li>Digital evidence verification to strengthen cases.</li>
+                        <li>Stay updated with the latest legal trends and rulings.</li>
+                    </ul>
+                </div>
+                <div class="testimonial">
+                    <img alt="Judges" src="../images/judge.svg" />
+                    <p class="name"><b>For Judges 🏛️</b></p>
+                    <p><i>"Enhancing Judicial Efficiency with AI!"</i></p>
+                    <ul class="title">
+                        <li>Quick access to similar case precedents and rulings.</li>
+                        <li>AI-assisted legal insights to support fair judgments.</li>
+                        <li>Secure and verified legal document analysis.</li>
+                        <li>Comprehensive law summaries for reference.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section id="working" class="working">
+            <div class="feature-heading">
+                <h1>🔍 How Nyay Search Works</h1>
+                <p>Your AI-Powered Legal Assistant in Just a Few Clicks !!</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <h2>1️⃣ Enter Your Query</h2>
+                    <p>Describe your legal issue by typing, speaking, or uploading an image/video.</p>
+                </div>
+                <div class="timeline-item right">
+                    <h2>2️⃣ AI Analyzes & Summarizes</h2>
+                    <p>Our AI scans legal databases and extracts the most relevant insights for you.</p>
+                </div>
+                <div class="timeline-item left">
+                    <h2>3️⃣ Get Case Precedents & Laws</h2>
+                    <p>Instantly access relevant legal judgments, case precedents, and legal provisions.</p>
+                </div>
+                <div class="timeline-item right">
+                    <h2>4️⃣ Take Informed Action</h2>
+                    <p>Receive clear guidance on your legal options and next steps.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="divider"></div>
+
+        <section id="public" class="public">
+            <div class="feature-heading">
+                <h1>⚖️ Connect, Discuss & Seek Legal Expertise</h1>
+                <p>Connect with experts and get legal guidance in one place.</p>
+            </div>
+            <div class="public-container">
+                <div class="comunityForum">
+                    <img alt="Community Forum" src="../images/forum.svg" />
+                    <p class="name"><b>Community Forum & Discussion Board 🗣️💬</b></p>
+                    <p><i>Join an interactive legal community where you can ask questions, share insights, and discuss legal matters with peers, experts, and professionals. Stay informed, exchange knowledge, and find support for your legal concerns.</i></p>
+                    <ul class="title">
+                        <li>Ask questions and get answers from the community.</li>
+                        <li>Share your experiences and insights.</li>
+                        <li>Participate in discussions on various legal topics.</li>
+                        <li>Stay updated with the latest legal news.</li>
+                    </ul>
+                    <div class="buttons">
+                        <button class="btn1" onclick="redirectTocommunityforum()">Explore the Forum 💬</button>
+                    </div>
+                </div>
+                <div class="FeaturedLawyers">
+                    <img alt="Featured Lawyers" src="../images/lawyerP.svg" />
+                    <p class="name"><b>Featured Lawyers & Experts 👩‍⚖️👨‍⚖️</b></p>
+                    <p><i>Get direct access to verified legal professionals specializing in various fields of law. Browse expert profiles, seek guidance, and consult lawyers to make informed legal decisions with confidence.</i></p>
+                    <ul class="title">
+                        <li>Find lawyers based on your legal needs.</li>
+                        <li>Read reviews and ratings from other clients.</li>
+                        <li>Consult with experts for personalized advice.</li>
+                        <li>Access a wide range of legal services.</li>
+                    </ul>
+                    <div class="buttons">
+                        <button class="btn2" onclick="redirectTolawyersearch()">Search Legal Experts 👩‍⚖️</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+
+        
+
+    </header>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h3>Contact Information</h3>
+                <p>Email: <a href="mailto:support@nyaysearch.com">support@nyaysearch.com</a></p>
+                <p>Phone: +91-123-456-7890</p>
+                <p>Address: NyaySearch Pvt. Ltd., Connaught Place, New Delhi, India</p>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><img src="../images/facebook-logo.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../images/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="../images/linkedin.png" alt="LinkedIn"></a></li>
+                    <li><a href="#"><img src="../images/instagram.png" alt="Instagram"></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Subscribe to our newsletter to receive updates on new features and services.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email address">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 NyaySearch. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="../js/script.js"></script>
 </body>
 </html>
-
-
